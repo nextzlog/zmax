@@ -1,0 +1,16 @@
+command = バックアップ
+command.tip = ログを .BAK としてバックアップフォルダーにコピー
+options.title = バックアップ
+options.folder = バックアップフォルダー
+options.folder.tip = %VAR% は環境変数、相対パスは設定フォルダー基準。変更ごとにコピー
+browse = 参照…
+done = {0} にバックアップしました
+no_log = バックアップするログが開かれていません
+same_folder = バックアップフォルダー {0} がログと同じです。別のフォルダーを選んでください
+create_failed = バックアップフォルダー {0} を作成できません: {1}
+write_failed = {0} にバックアップを書き込めません: {1}
+options.generations = 世代を残す
+options.generations.tip = 上書きせず、命名規則に従って日時つきのコピーを残します
+options.keep = 残す世代数
+options.pattern = 命名規則
+options.pattern.tip = {year} 年、{date} 日付、{time} 日時、{contest} コンテスト名、{call} コールサイン、{log} ログのファイル名
